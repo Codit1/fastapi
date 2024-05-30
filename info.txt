@@ -1,0 +1,45 @@
+a virtual environment is king of virtual or isolated evnvironment where certain thins are installed for particular use case and in programming it is mostly used for version controlling incase if a feature update of a tool is backward compactible 
+
+                    usage
+py -3 -m venv (the name to give the virtuall environment)
+
+change the python interpreter to the one in the venv folder which is the python.exe inside the script folder
+
+then run the active.bat file in the venv folder which will activate the a terminal for the specially for the venv environment 
+
+                    FastApi
+fastApi is resource or tool that help creation of api more easy and fast.
+
+                    usage
+pip install fastApi
+    by using this command to install fastApi this will install every dependiecies and packages required both the optional ones which might or not b needed
+
+pip install fastApi-slim 
+    it will every dependiecies and packages but optional ones are exclueded
+
+uvicorn
+    is a tool that let's u start a development server for 
+your app 
+                    usage
+uvicron (name of the file to start the server from ):(with the decorator name) eg uvicorn main:app
+
+the above command with a --reload flag this command is used to help restart the server when ever a change is made into the code or the python file
+
+when writing or creating an APi with fastapi if u happens to put or create a method with the same api methd and the same path the fast api will will always choose the first one eg
+(@app.get('/'), @app.get('/')) the first one will always be choosen
+
+when naming a path we can use the same name but different methods and still works and that is the best practice
+
+                                    ORM 
+
+ORM = Object Relational DataBase 
+this is a way of taking to a DataBase with python without having to write or send SQL commands directly to sql rather we talk to ORM which converts our python code to SQL command 
+
+                                    Benefits of using ORM
+we don't have to manualy create our required tables
+
+                                Alembic
+It is a python library used for used monitoring changes in our DataBase and can also help SqlAlchemy to modify tables 
+
+alembic init (dir name) :
+    this command will initialize alembic in our project folder
